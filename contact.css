@@ -1,0 +1,63 @@
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.first-content h2 {
+    font-size: 44px;
+    color: #323a45;
+}
+
+.first-content p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.first-content a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #777;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: #777;
+    font-size: 20px;
+}
+
+.first-content a:hover {
+    color: #fff;
+    background-color: #323a45;
+}
+
+.registation-form h2 {
+    font-size: 44px;
+    color: #323a45;
+}
+
+.registation-form input {
+    display: block;
+    width: 400px;
+    margin: 20px 0px;
+    border: 1px solid #777;
+    padding: 8px 11px;
+    border-radius: 17px;
+    font-size: 15px;
+}
+
+.registation-form input:focus {
+    outline: none;
+}
+
+.registation-form .btn {
+    border: 1px solid #777;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: #777;
+    font-size: 20px;
+}
+
+.registation-form .btn:focus {
+    outline: none;
+}
