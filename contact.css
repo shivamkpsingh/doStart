@@ -1,7 +1,13 @@
+#contact-section {
+    height: 500px;
+    background-image: linear-gradient(to right top, #370505, #690026, #9c0054, #c50096, #d812eb);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 100px;
+    grid-column-gap: 20px;
     padding: 40px;
 }
 
@@ -54,8 +60,10 @@
     border: 1px solid #777;
     padding: 12px 25px;
     border-radius: 25px;
-    color: #777;
+    /* color: #777; */
+    color: #ff5a6e;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .registation-form .btn:focus {

@@ -1,0 +1,32 @@
+.utility-class {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.utility-class h2 {
+    font-size: 30px;
+    color: #323a45;
+    font-weight: 800;
+}
+
+.utility-class span {
+    color: #ff5a6e;
+}
+
+.utility-class h4 {
+    font-size: 18px;
+    color: #323a45;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.utility-class h4::before {
+    content: "";
+    background: #ff5a6e none repeat scroll 0 0;
+    left: 50%;
+    height: 3px;
+    position: absolute;
+    z-index: -1;
+    width: 50px;
+    margin: 35px 0px 0px -35px;
+}
