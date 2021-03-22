@@ -1,0 +1,30 @@
+#team-section{
+    margin-top: 40px;
+    height:auto;
+}
+.team-member{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 40px;
+    margin-top: 40px;
+    
+}
+.team-people {
+    text-align: center;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    padding: 40px;
+}
+.team-people img{
+    width: 100%;
+}
+.team-people h2{
+    margin-top: 10px;
+    font-weight: 400;
+    color: #323a45;
+}
+.team-people span{
+    display: inline-block;
+    margin:8px 0px 6px 0px;
+    color: #ff5a6e;
+}

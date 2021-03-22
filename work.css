@@ -1,0 +1,48 @@
+#work-section{
+    /* height: 600px; */
+    margin-bottom: 40px;
+    height: auto;
+}
+.how-we-work{
+    display: flex;
+    padding: 40px;
+    margin-top: 50px;
+}
+.work-image img{
+    /* margin: 0px 0px 0px 70px; */
+    /* width: 100%; */
+}
+.work-image-1{
+    width: 100%;
+}
+.work-element{
+    margin: 0px 0px 0px 70px;
+}
+.work-element h1{
+    font-size: 40px;
+    color: #323a45;
+    font-weight: lighter;
+}
+.work-element span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ff5a6e;
+}
+.work-analysis{
+    margin-top: 20px;
+}
+.work-topic{
+    margin-top: 20px;
+}
+.work-topic i{
+    color: #323a45;
+}
+.work-topic i::before{
+    color: #ff5a6e;
+    margin-right: 26px;
+}
+.work-topic p{
+    font-size: 17px;
+    margin:10px 0px 0px 46px
+}
